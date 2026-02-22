@@ -26,4 +26,9 @@ public class SampleSpringBootApplication {
     public String hello2() {
         return "This is my test2!";
     }
+
+    @GetMapping("/test4")
+    public String hello4() {
+        return "This is my test4 from development branch!";
+    }
 }
