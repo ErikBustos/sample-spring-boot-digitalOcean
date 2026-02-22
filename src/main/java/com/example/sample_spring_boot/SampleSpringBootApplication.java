@@ -41,6 +41,11 @@ public class SampleSpringBootApplication {
         return "This is my test3!";
     }
 
+    @GetMapping("/test4")
+    public String hello4() {
+        return "This is my test4 in main!";
+    }
+
     @GetMapping("/getAccount/{username}")
     public ResponseEntity<Account> getAccountByUsername(@PathVariable String username) {
         return accountRepo.findByUsername(username)
