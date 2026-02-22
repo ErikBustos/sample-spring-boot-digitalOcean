@@ -16,4 +16,14 @@ public class SampleSpringBootApplication {
     public String hello() {
         return "Hello from Dockerized Spring Boot!";
     }
+
+	@GetMapping("/test1")
+    public String hello1() {
+        return "This is my test1";
+    }
+
+	@GetMapping("/test2")
+    public String hello2() {
+        return "This is my test2!";
+    }
 }
