@@ -3,7 +3,7 @@ spec:
   services:
   - dockerfile_path: Dockerfile
     git:
-      branch: main
+      branch: development
       repo_clone_url: https://github.com/ErikBustos/sample-spring-boot-digitalOcean.git
     instance_count: 1
     instance_size_slug: apps-s-1vcpu-1gb

@@ -2,7 +2,7 @@ name: sample-springboot
 services:
 - dockerfile_path: /Dockerfile
   github:
-    branch: main
+    branch: development
     deploy_on_push: true
     repo: ErikBustos/sample-spring-boot-digitalOcean
   name: sample-springboot
