@@ -26,4 +26,9 @@ public class SampleSpringBootApplication {
     public String hello2() {
         return "This is my test2!";
     }
+
+    @GetMapping("/test3")
+    public String hello3() {
+        return "This is my test3!";
+    }
 }
